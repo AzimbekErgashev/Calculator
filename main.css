@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    margin: 20px;
+    width: 300px;
+    height: 365px;
+    background: #1d1d1d;
+    border: black 4px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.screen{
+    width: 270px;
+    height: 60px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-right: 10px;
+}
+
+.keyboard{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 36px;
+    border-radius: 100px;
+    background: #A2A2A2;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.button:hover{
+    background: #6d6d6d;
+}
+
+.button:active{
+    background: #525252;
+}
+
+.button-zero, .button-clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 124px;
+    height: 36px;
+    border-radius: 100px;
+    background: #A2A2A2;
+}
+
+.button-zero:hover{
+    background: #6d6d6d;
+}
+
+.button-zero:active{
+    background: #525252;
+}
+
+.button-clear:hover{
+    background: #6d6d6d;
+}
+
+.button-clear:active{
+    background: #525252;
+}
+
+.button-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 87px;
+    border-radius: 100px;
+    background: #A2A2A2;
+}
+
+.button-plus:hover{
+    background: #6d6d6d;
+}
+
+.button-plus:active{
+    background: #525252;
+}
+
+.buttons-top, .row-123, .row-456, .row-789, .row-minus-plus, .buttons-bottom{
+    display: flex;
+}
+
+.buttons-top{
+    width: 264px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.buttons-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row-numbers{
+    width: 194px;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-789, .row-456, .row-123{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row-minus-plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.note{
+    display: flex;
+    justify-content: center;
+    color: #767a81;
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="author" content="Azimbek Ergashev">
+    <meta name="keywords" content="calculator,simple calculator,javascript">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="main">
+        <div class="screen">
+            <div id="number-on-screen"> <!-- max 16 chars !-->
+                0
+            </div>
+        </div>
+        <div class="keyboard">
+            <div class="buttons-top">
+                <a href="#" class="button-clear" id="clear-button">CLEAR</a>
+                <a href="#" class="button" id="multiply-button">*</a>
+                <a href="#" class="button" id="divide-button">/</a>
+            </div>
+            <div class="buttons-middle">
+                <div class="row-numbers">
+                    <div class="row-789">
+                        <a href="#" class="button" id="button-7">7</a>
+                        <a href="#" class="button" id="button-8">8</a>
+                        <a href="#" class="button" id="button-9">9</a>
+                    </div>
+                    <div class="row-456">
+                        <a href="#" class="button" id="button-4">4</a>
+                        <a href="#" class="button" id="button-5">5</a>
+                        <a href="#" class="button" id="button-6">6</a>
+                    </div>
+                    <div class="row-123">
+                        <a href="#" class="button" id="button-1">1</a>
+                        <a href="#" class="button" id="button-2">2</a>
+                        <a href="#" class="button" id="button-3">3</a>
+                    </div>
+                </div>
+                <div class="row-minus-plus">
+                    <a href="#" class="button" id="minus-button">-</a>
+                    <a href="#" class="button-plus" id="plus-button">+</a>
+                </div>
+            </div>
+            <div class="buttons-bottom">
+                <a href="#" class="button-zero" id="button-0">0</a>
+                <a href="#" class="button" id="dot-button">.</a>
+                <a href="#" class="button" id="equal-button">=</a>
+            </div>
+        </div>
+            </div>
+    </div>
+    <div class="note">
+        /* you can use keyboard to use calculator */
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
